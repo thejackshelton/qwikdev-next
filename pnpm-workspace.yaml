@@ -1,0 +1,4 @@
+packages:
+  - "apps/next-demo"
+  - "apps/qwik-demo"
+  - "libs/qwikdev-next"
