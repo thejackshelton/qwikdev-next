@@ -1,0 +1,1 @@
+import{k as _,q as l,_ as r,E as n,P as s,f as t}from"./q-BR1hy592.js";const o=_(l(()=>r(()=>import("./q-72f1P9V7.js"),[]),"s_xwU9tQxExS0")),i=()=>n(t,{children:[s("p",null,null,"Qwik counter",3,null),n(o,null,3,"i8_0")]},1,"i8_1");export{i as s_B0lqk5IDDy4};

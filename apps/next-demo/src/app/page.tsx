@@ -1,10 +1,9 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Counter from "./counter";
 
 async function fetchDataFromQwik() {
-  const response = await fetch("http://localhost:5173/");
+  const response = await fetch("http://localhost:4173/");
   const data = await response.text();
-  console.log(data);
 
   return data;
 }
@@ -14,7 +13,10 @@ export default async function Home() {
 
   return (
     <main className={styles.main}>
-      <p>Next demo</p>
+      <div>
+        <p>Next demo</p>
+        <Counter />
+      </div>
       <div dangerouslySetInnerHTML={{ __html: data }} />
     </main>
   );
